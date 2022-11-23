@@ -15,7 +15,7 @@ if (isset($message)) {
 
    <section class="flex">
 
-      <a href="home.php" class="logo">ThinkerPen.</a>
+      <a href="home.php" class="logo"><img src="profile.png" alt="" class="img-cl"></a>
 
       <form action="search.php" method="POST" class="search-form">
          <input type="text" name="search_box" class="box" maxlength="100" placeholder="search for blogs" required>
