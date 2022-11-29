@@ -1,7 +1,7 @@
 <?php
 
-$db_name = 'mysql:host=localhost;dbname=blog_db';
-$user_name = 'Elder';
-$user_password = 'admin1234';
+$db_name = 'mysql:host=containers-us-west-99.railway.app;dbname=railway';
+$user_name = 'root';
+$user_password = 'PKBA6pWTHyuMqVyO6ucz';
 
 $conn = new PDO($db_name, $user_name, $user_password);
